@@ -1,0 +1,18 @@
+﻿{
+    "messageVersion": "1.0",
+    "function": "create_bug_report",
+    "parameters": [
+        {
+            "name": "description",
+            "value": "The checkout page crashes when I click Pay"
+        },
+        {
+            "name": "stepsToReproduce",
+            "value": "1. Add an item to the cart. 2. Open checkout. 3. Click Pay."
+        },
+        {
+            "name": "environment",
+            "value": "Chrome 120 on Windows 11"
+        }
+    ]
+}

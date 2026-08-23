@@ -1,0 +1,35 @@
+{
+  "mcp": {
+    "lambda": {
+      "lambdaArn": "arn:aws:lambda:us-east-1:051752386576:function:create-bug-report-f3e34980",
+      "toolSchema": {
+        "inlinePayload": [
+          {
+            "name": "create_bug_report",
+            "description": "Creates a bug report ticket in the online shop support system.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string",
+                  "description": "Description of the bug."
+                },
+                "stepsToReproduce": {
+                  "type": "string",
+                  "description": "Steps to reproduce the bug."
+                },
+                "environment": {
+                  "type": "string",
+                  "description": "Browser, operating system, or device information."
+                }
+              },
+              "required": [
+                "description"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

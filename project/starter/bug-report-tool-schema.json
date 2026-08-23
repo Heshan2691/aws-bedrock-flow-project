@@ -1,0 +1,26 @@
+﻿[
+  {
+    "name": "create_bug_report",
+    "description": "Creates a bug report ticket in the online shop support system.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Description of the bug reported by the customer."
+        },
+        "stepsToReproduce": {
+          "type": "string",
+          "description": "Steps the customer took that caused the bug."
+        },
+        "environment": {
+          "type": "string",
+          "description": "Browser, operating system, device, or other environment details."
+        }
+      },
+      "required": [
+        "description"
+      ]
+    }
+  }
+]
