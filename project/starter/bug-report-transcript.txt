@@ -1,0 +1,12 @@
+BUG REPORT TRANSCRIPT
+
+Customer:
+The checkout page crashes when I click Pay.
+
+Assistant:
+Thank you for bringing this issue to our attention. To help us investigate and resolve the problem, I'll need some additional information from you. Let's start with the description of the bug.
+
+You've mentioned that the checkout page crashes when you click Pay. Could you please provide more details about what happens when the page crashes? For example, do you see any error messages, does the page reload, or does the browser become unresponsive?
+
+Assistant:
+Once I have this information, I'll ask for the next set of details needed for the bug report.

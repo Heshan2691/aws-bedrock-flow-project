@@ -1,0 +1,27 @@
+{
+  "flowInputNode": {
+    "nodeName": "FlowInputNode"
+  },
+  "tests": [
+    {
+      "id": "bug-report-001",
+      "prompt": "The checkout page crashes when I click Pay.",
+      "expected": "The assistant should recognize this as a bug report and begin collecting the information required for a bug report, asking for missing information without inventing details."
+    },
+    {
+      "id": "faq-payment-001",
+      "prompt": "What payment methods do you accept?",
+      "expected": "The assistant should answer using the online shop FAQ and provide the supported payment methods."
+    },
+    {
+      "id": "faq-uncovered-001",
+      "prompt": "What is the weather like today?",
+      "expected": "The assistant should explain that the question is outside the supported FAQ and direct the customer to human support."
+    },
+    {
+      "id": "other-request-001",
+      "prompt": "I want to speak with someone about a business partnership.",
+      "expected": "The assistant should recognize this as an other request and direct the customer to human support."
+    }
+  ]
+}
