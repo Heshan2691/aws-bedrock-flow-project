@@ -2,25 +2,26 @@
   {
     "test": "Bug Report",
     "input": "The checkout page crashes when I click Pay.",
-    "output": "Thank you for reaching out to us and reporting this issue. I'd like to help you get this resolved. To start, could you please provide a brief description of the bug you're experiencing on the checkout page?\n\nFrom your initial message, I understand that the checkout page crashes when you click \"Pay.\" If you could provide any additional details about what happens when this occurs—such as error messages, the page freezing, or any other unusual behavior—that would be very helpful.",
-    "status": "PASS"
+    "output": "",
+    "status": "FAIL",
+    "error": "An error occurred (dependencyFailedException) when calling the InvokeFlow operation: No function output is captured."
   },
   {
     "test": "Covered FAQ Question",
     "input": "What payment methods do you accept?",
-    "output": "We accept major credit/debit cards and other local methods shown at checkout. Available options can vary by country.",
+    "output": "We accept major credit/debit cards and other local methods shown at checkout. Available options can vary by country. If you have any further questions or need more detailed assistance, please contact our support team using the help/contact form on our site or reply to any order email.",
     "status": "PASS"
   },
   {
     "test": "Uncovered Question",
     "input": "What is the weather like today?",
-    "output": "Hello,\n\nThank you for reaching out to us. It appears your request is about current weather conditions, which is something our automated system can't assist with. \n\nPlease contact our human customer support team directly at 1-800-123-4567 for assistance.\n\nBest regards,\nCustomer Support Assistant",
+    "output": "Hello,\n\nThank you for reaching out to us. Your inquiry regarding the weather is something that our automated system isn't equipped to handle. \n\nFor any non-bug report or platform-related questions, please contact our human customer support team directly. They will be able to assist you further.\n\nYou can reach our customer support at 1-800-123-4567.\n\nThank you for your understanding.\n\nBest regards,\nCustomer Support Assistant",
     "status": "PASS"
   },
   {
     "test": "Other Request",
     "input": "I want to speak with someone about a business partnership.",
-    "output": "Thank you for reaching out to us.\n\nIt appears your inquiry regarding a business partnership does not fit into the categories of bug reports or platform questions, which our automated system can assist with.\n\nFor business partnership inquiries, please contact our human customer support team directly. They will be able to provide you with the assistance you need.\n\nYou can reach our human customer support at 1-800-123-4567.\n\nThank you for your understanding.",
+    "output": "Hello,\n\nThank you for reaching out to us regarding a business partnership. \n\nThis type of request requires assistance from our human customer support team. \n\nPlease contact our support team directly at 1-800-123-4567.\n\nWe look forward to discussing potential partnership opportunities with you.\n\nBest regards,\nCustomer Support Assistant",
     "status": "PASS"
   }
 ]

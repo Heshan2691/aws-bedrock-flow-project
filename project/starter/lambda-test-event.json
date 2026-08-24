@@ -1,0 +1,5 @@
+﻿{
+  "description": "The checkout page crashes when I click Pay.",
+  "stepsToReproduce": "Click Pay on the checkout page.",
+  "environment": "Unknown"
+}

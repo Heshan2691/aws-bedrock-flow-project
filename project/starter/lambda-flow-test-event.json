@@ -1,0 +1,27 @@
+﻿{
+  "messageVersion": "1.0",
+  "flow": {
+    "flowArn": "arn:aws:bedrock:us-east-1:051752386576:flow/4C8AU1HTOD",
+    "flowAliasArn": "test"
+  },
+  "node": {
+    "name": "CreateBugReportLambda",
+    "inputs": [
+      {
+        "name": "description",
+        "type": "String",
+        "value": "The checkout page crashes when I click Pay."
+      },
+      {
+        "name": "stepsToReproduce",
+        "type": "String",
+        "value": "Click Pay on the checkout page."
+      },
+      {
+        "name": "environment",
+        "type": "String",
+        "value": "Unknown"
+      }
+    ]
+  }
+}

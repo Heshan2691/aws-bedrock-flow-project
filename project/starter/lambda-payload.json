@@ -1,0 +1,7 @@
+﻿{
+  "data": {
+    "description": "The checkout page crashes when I click Pay.",
+    "stepsToReproduce": "Open checkout and click Pay.",
+    "environment": "Chrome on Windows 11"
+  }
+}
